@@ -15,7 +15,7 @@ null -> 0
 undefined -> NaN
 */
 
-let IsLoggedIn= "jojo"
+let IsLoggedIn= NaN
 let IsLoggedInNumber= Boolean(IsLoggedIn)
 console.log(typeof IsLoggedIn)
 console.log(typeof IsLoggedInNumber)
@@ -24,7 +24,7 @@ console.log(IsLoggedInNumber)
 /*
 1 -> true
 0 -> false
-" " -> false
+"" -> false
 "jojo" -> true
 null -> false
 undefined -> false
