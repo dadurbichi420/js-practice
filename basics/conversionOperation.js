@@ -35,3 +35,11 @@ console.log("1" + 2) // "12"
 console.log(1 + "2") // "12"
 console.log(1+1+"2") // "22"
 console.log("1"+1+2) // "112"
+
+
+
+console.log(+true) // 1
+console.log(+false) // 0
+console.log(+"33") // 33
+console.log(+"33abc") // NaN
+// here + is a unary operator which converts the value to number type
